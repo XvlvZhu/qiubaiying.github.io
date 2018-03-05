@@ -62,8 +62,8 @@ disqus_username: xvlvzhu
 # Gitalk
 gitalk:
   enable: true    #是否开启Gitalk评论
-  clientID: f2c84e7629bb1446c1a4   #生成的clientID
-  clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d  #同上
+  clientID: eeceec43d1a665a7e15f   #生成的clientID
+  clientSecret: 43ee3a8b7062d6fb63836bad8e3a08c0d4ee0149  #同上
   repo: xvlvzhu.github.io    #仓库名称
   owner: xvlvzhu    #github用户名
   admin: xvlvzhu
