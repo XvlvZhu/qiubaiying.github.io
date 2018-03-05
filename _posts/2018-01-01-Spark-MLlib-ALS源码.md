@@ -10,7 +10,7 @@ tags:
     - Spark
 ---
 ## 1.Rating数据结构
-### A more compact class to represent a rating than Tuple3[Int, Int, Double].
+A more compact class to represent a rating than Tuple3[Int, Int, Double].
 ```
 case class Rating @Since(0.8.0) (
     @Since(0.8.0) user Int,
@@ -24,7 +24,7 @@ case class Rating @Since(0.8.0) (
 ### 交替最小二乘矩阵分解
 
   
-   ALS attempts to estimate the ratings matrix `R` as the product of ==two lower-rank matrices(两个低秩矩阵)==,
+   ALS attempts to estimate the ratings matrix `R` as the product of **two lower-rank matrices(两个低秩矩阵)**,
    `X` and `Y`, i.e. `X  Yt = R`. Typically these approximations are called 'factor' matrices.
    The general approach is iterative. During each iteration, one of the factor matrices is held
    constant, while the other is solved for using least squares. The newly-solved factor matrix is
