@@ -3,7 +3,7 @@ layout:     post
 title:      Spark-MLlib-ALS源码
 subtitle:   
 date:       2018-01-01
-author:     MLlib
+author:     xvlvzhu
 header-img: img/post-bg-universe.jpg
 catalog: true
 tags:
